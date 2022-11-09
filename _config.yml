@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "New URL fiakodev Web Apps"
+description: "New URL fiakodev Web Apps | Alamat Baru Aplikasi Web fiakodev"
 
 # Build settings
 markdown: kramdown
@@ -9,9 +9,9 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_avatar:                  "false"
+resume_name:                    "New URL fiakodev Web Apps"
+resume_title:                   "New URL / Alamat Baru"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "lisasimpson@youremailaddress.com"
@@ -21,9 +21,9 @@ resume_contact_telephone:       "555-7334"
 resume_contact_address:         "742 Evergreen Terrace, Springfield"
 
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-display_header_contact_info:    "false"
+display_header_contact_info:    "true"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: ""
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -33,13 +33,13 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      true
-resume_section_education:       true
-resume_section_projects:        true
-resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+resume_section_experience:      false
+resume_section_education:       false
+resume_section_projects:        false
+resume_section_skills:          false
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
 # resume_section_interests:       true
 
 # Resume social links
