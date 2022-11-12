@@ -15,4 +15,27 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="favicon.png" />
+  <script>
+    let currentUrl = window.location.href;
+    let currentHost = window.location.host;
+    switch(currentHost){
+      case 'anfrek.dev.fiako.engineering':
+      window.location.href = 'https://fiako-anfrek.herokuapp.com'
+      break;
+      case 'demo-stations.dev.fiako.engineering':
+      window.location.href = 'https://demo-fiako-stations.herokuapp.com'  
+      break;
+      case 'rainfall.dev.fiako.engineering':
+      window.location.href = 'https://hidrokit-rainfall.herokuapp.com'  
+      break;
+      case 'stations.dev.fiako.engineering':
+      window.location.href = 'https://fiako-stations.herokuapp.com'  
+      break;
+      case '127.0.0.1:4000':
+      alert("Uhuuuyyy");
+      break;
+      default:
+        alert("New URL Web Apps is available!");
+    }
+  </script>
 </head>
