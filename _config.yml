@@ -1,6 +1,6 @@
 # Site settings
-title: "New URL fiakodev Web Apps"
-description: "New URL fiakodev Web Apps | Alamat Baru Aplikasi Web fiakodev"
+title: "Redirecting to New URL"
+description: "Redirecting to New URL | Alamat Baru Aplikasi Web fiakodev"
 
 # Build settings
 markdown: kramdown
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "false"
-resume_name:                    "New URL fiakodev Web Apps"
+resume_name:                    "Redirecting to New URL"
 resume_title:                   "New URL / Alamat Baru"
 
 # used for the contact button in _layouts/resume.html
